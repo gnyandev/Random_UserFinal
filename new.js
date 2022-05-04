@@ -44,6 +44,20 @@ class RandomUser{
             </div>
         </div>
 
+        <div class = "card-foot">
+        <div class = "user-contact-info">
+            <span>
+                <i class = "fas fa-phone"></i> ${user.phone}
+            </span>
+            <span>
+                <i class = "fa-solid fa-mobile-button"></i> ${user.cell}
+            </span>
+        </div>
+    </div>
+    `;
+}
+}
+
         
 document.getElementById('generate-btn').addEventListener('click', () => {
     RandomUser.fetchFromAPI();
