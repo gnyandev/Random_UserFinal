@@ -186,3 +186,33 @@ body{
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
             box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
+@media screen and (max-width: 490px){
+    .container{
+        margin: 4rem auto;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .card-head a{
+        position: relative;
+        left: 0;
+        top: 10rem;
+    }
+    .user-post-address{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .user-post-address > div{
+        margin-bottom: 1.4rem;
+    }
+    .user-contact-info{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .user-contact-info span:first-child{
+        margin-bottom: 2rem;
+    }
+}
