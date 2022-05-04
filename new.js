@@ -21,6 +21,19 @@ class RandomUser{
             </div>
         </div>
 
+        <div class = "card-body">
+            <div class = "user-post-address">
+                <div>
+                    <span>${user.location.street.number}</span><span>Street Address</span>
+                </div>
+                <div>
+                    <span>${user.location.postcode}</span><span>Postcode</span>
+                </div>
+                <div>
+                    <span>${user.location.street.name}</span><span>Street Name</span>
+                </div>
+            </div>
+
         
 document.getElementById('generate-btn').addEventListener('click', () => {
     RandomUser.fetchFromAPI();
