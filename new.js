@@ -11,3 +11,8 @@ class RandomUser{
     
     static renderUserData(data){
         // console.log(data);
+
+        
+document.getElementById('generate-btn').addEventListener('click', () => {
+    RandomUser.fetchFromAPI();
+});
