@@ -9,3 +9,5 @@ class RandomUser{
         .catch(error => alert(error));
     }
     
+    static renderUserData(data){
+        // console.log(data);
