@@ -132,3 +132,12 @@ body{
 .user-name-full{
     font-weight: 600;
 }
+.user-age{
+    color: var(--grey);
+}
+.user-location-address span{
+    color: var(--dark-blue);
+    font-size: 1.8rem;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
