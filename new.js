@@ -62,3 +62,5 @@ class RandomUser{
 document.getElementById('generate-btn').addEventListener('click', () => {
     RandomUser.fetchFromAPI();
 });
+
+RandomUser.fetchFromAPI();
