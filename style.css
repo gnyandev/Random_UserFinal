@@ -166,3 +166,23 @@ body{
 .user-contact-info span{
     color: var(--dark-blue);
 }
+#generate-btn{
+    background-color: var(--dark-blue);
+    color: #fff;
+    font-family: inherit;
+    font-size: 2rem;
+    border:none;
+    padding: 0.8rem 1.2rem;
+    margin-top: 3rem;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+#generate-btn:hover{
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
