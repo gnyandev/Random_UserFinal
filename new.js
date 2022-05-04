@@ -34,6 +34,16 @@ class RandomUser{
                 </div>
             </div>
 
+            <div class = "user-name">
+                <span class = "user-name-title">${user.name.title}.</span>
+                <span class = "user-name-full">${user.name.first} ${user.name.last},</span>
+                <span class = "user-age">${user.dob.age}</span>
+            </div>
+            <div class = "user-location-address">
+                <span>${user.location.city}, ${user.location.state}, ${user.location.country}</span>
+            </div>
+        </div>
+
         
 document.getElementById('generate-btn').addEventListener('click', () => {
     RandomUser.fetchFromAPI();
